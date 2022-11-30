@@ -1,0 +1,12 @@
+[submodule "Libraries/ioLibrary_Driver"]
+	path = Libraries/ioLibrary_Driver
+	url = https://github.com/Wiznet/ioLibrary_Driver
+[submodule "libraries/io6Library"]
+	path = libraries/io6Library
+	url = https://github.com/Wiznet/io6Library
+[submodule "Libraries/io6Library"]
+	path = Libraries/io6Library
+	url = https://github.com/Wiznet/io6Library
+[submodule "Libraries/aws-iot-device-sdk-embedded-C"]
+	path = Libraries/aws-iot-device-sdk-embedded-C
+	url = https://github.com/aws/aws-iot-device-sdk-embedded-C

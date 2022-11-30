@@ -1,0 +1,3 @@
+- aws-iot-device-sdk-embedded-C : https://github.com/aws/aws-iot-device-sdk-embedded-C/tree/9de6cc4e2cfda4cff8b6a5a3df5b9ab3a90e8f2c
+- ioLibrary_Driver : https://github.com/Wiznet/ioLibrary_Driver/tree/ce4a7b6d07541bf0ba9f91e369276b38faa619bd
+- mbedtls : https://github.com/Mbed-TLS/mbedtls/tree/662deb38d61bb1fc6392c55a5134d1bd1a116118

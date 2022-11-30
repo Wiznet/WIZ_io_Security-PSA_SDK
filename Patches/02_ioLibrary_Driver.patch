@@ -1,0 +1,40 @@
+diff --git a/Application/loopback/loopback.c b/Application/loopback/loopback.c
+index a921092..df834ca 100644
+--- a/Application/loopback/loopback.c
++++ b/Application/loopback/loopback.c
+@@ -1,7 +1,7 @@
+ #include <stdio.h>
+ #include "loopback.h"
+-#include "socket.h"
+-#include "wizchip_conf.h"
++#include "ioLibrary_Driver/Ethernet/socket.h"
++#include "ioLibrary_Driver/Ethernet/wizchip_conf.h"
+ 
+ #if LOOPBACK_MODE == LOOPBACK_MAIN_NOBLCOK
+ 
+diff --git a/Internet/DHCP/dhcp.c b/Internet/DHCP/dhcp.c
+index 87f4db9..0a2043b 100644
+--- a/Internet/DHCP/dhcp.c
++++ b/Internet/DHCP/dhcp.c
+@@ -50,7 +50,7 @@
+ //
+ //*****************************************************************************
+ 
+-#include "socket.h"
++#include "ioLibrary_Driver/Ethernet/socket.h"
+ #include "dhcp.h"
+ 
+ /* If you want to display debug & processing message, Define _DHCP_DEBUG_ in dhcp.h */
+diff --git a/Internet/DNS/dns.c b/Internet/DNS/dns.c
+index ce7b8dd..ae36f7d 100644
+--- a/Internet/DNS/dns.c
++++ b/Internet/DNS/dns.c
+@@ -52,7 +52,7 @@
+ #include <string.h>
+ #include <stdlib.h>
+ 
+-#include "socket.h"
++#include "ioLibrary_Driver/Ethernet/socket.h"
+ #include "dns.h"
+ 
+ #ifdef _DNS_DEBUG_
