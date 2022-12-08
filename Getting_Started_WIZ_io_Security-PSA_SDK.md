@@ -69,6 +69,13 @@ Update the Domain, Topic and Client ID in WIZ_io_Security-PSA_SDK\Examples\aws_i
 Then Build the project in following order: TFM_SBSFU_Boot, TFM_Appli, TFM_Loader. For more information on this part please follow Section 10. Installation procedure (page 36) of the following guide.
 https://www.st.com/resource/en/user_manual/um2851-getting-started-with-stm32cubeu5-tfm-application-stmicroelectronics.pdf
 
+ST SE_STSAFEA_API library
+https://github.com/STMicroelectronics/STM32CubeU5/blob/main/Middlewares/ST/SE_STSAFEA_API/readme.txt
+
+ST STSAFE_A1xx library
+https://github.com/STMicroelectronics/STM32CubeU5/blob/main/Middlewares/ST/STSAFE_A1xx/readme.txt
+
+
 Make the device initialization by executing following script WIZ_io_Security-PSA_SDK\Projects\B-U585I-IOT02A\Applications\TFM\TFM_SBSFU_Boot\EWARM\regression.bat
 <p align="center"><img src="https://github.com/Wiznet/WIZ_io_Security-PSA_SDK/blob/main/Static/Images/regression.bat_img.png"></p>
 
@@ -82,6 +89,11 @@ Press 6 and select WIZCHIP AWS Key Provisining from the menu.
 Once message "Key Provisioning Done. 0" appears, press 7 to complete connection to AWS.
 <p align="center"><img src="https://github.com/Wiznet/WIZ_io_Security-PSA_SDK/blob/main/Static/Images/Key_Provisioning_Done.png"></p>
 <p align="center"><img src="https://github.com/Wiznet/WIZ_io_Security-PSA_SDK/blob/main/Static/Images/Running_AWS.png"></p>
+
+<a name="AWS IoT SDK example Demo Video"></a>
+## AWS IoT SDK example Demo Video
+https://youtu.be/jFAEf4FO9ps
+
 
 <a name="TCP Server Firmware Update"></a>
 ## TCP Server Firmware Update
